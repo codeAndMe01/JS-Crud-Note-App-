@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: yellowgreen;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#note{
+    
+    margin:0 10px;
+    background-color: white;
+    height: 50vh;
+    width: 30vw;
+    margin-top: 49px;
+
+    padding-bottom: 50px;
+
+}
+
+#tool{
+    padding: 5px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: end;
+    gap: 2px;
+}
+
+#tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#addBtn{
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    padding: 5px;
+    background-color: black;
+    align-items: end;
+    color: white;
+    
+    cursor: pointer;
+}
+#textA{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    resize: none;
+    border: none;
+    outline: none;
+}
